@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-usewire-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://usewire.io/
+Wire (usewire.io) is a collaborative AI platform that provides shared context containers for multiple agents. It enables teams to create, store, and manage files, documents, and data in a single container that any MCP‑compatible tool can read or write. Features include AI‑driven search, real‑time collaboration, credit‑based pricing, and extensive SDKs for seamless integration. The service is built on a secure, cloud‑native architecture and supports a wide range of AI models and tools, allowing developers to build intelligent workflows without data duplication.
+
+**Areas:** AI · MCP · Collaboration · Context · Platform
+
+## usewire-io on APIs.io
+
+Everything profiled for usewire-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/usewire-io/](https://apis.io/providers/usewire-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Wire API](https://apis.io/apis/usewire-io/wire-api/) — Wire provides a container-based API accessed via REST or MCP, enabling AI tools to read/write data within collaborative containers.
+- [usewire-io API](https://apis.io/apis/usewire-io/usewire-io-api/) — usewire-io API as documented publicly: 31 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1SdkPollResponse](https://apis.io/schemas/usewire-io/usewire-io-get-api-v1-sdk-poll-response/)
+- [GetInstallsInstallidExportsExportidResponse](https://apis.io/schemas/usewire-io/usewire-io-get-installs-installid-exports-exportid-response/)
+- [GetInstallsInstallidResponse](https://apis.io/schemas/usewire-io/usewire-io-get-installs-installid-response/)
+- [PostContainerContaineridToolsExploreResponse](https://apis.io/schemas/usewire-io/usewire-io-post-container-containerid-tools-explore-response/)
+- [PostContainerContaineridToolsQueryResponse](https://apis.io/schemas/usewire-io/usewire-io-post-container-containerid-tools-query-response/)
+- [PostInstallsInstallidExportResponse](https://apis.io/schemas/usewire-io/usewire-io-post-installs-installid-export-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Usewire Io Context](https://apis.io/jsonld/usewire-io/usewire-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [usewire-io API Rules](https://apis.io/rules/usewire-io/usewire-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Usewire Io Authentication](https://apis.io/security/usewire-io/usewire-io-authentication/)
+- [Usewire Io Domain Security](https://apis.io/security/usewire-io/usewire-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Usewire Io Scopes](https://apis.io/scopes/usewire-io/usewire-io-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Usewire Io Plans Pricing](https://apis.io/plans/usewire-io/usewire-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Usewire Io Rate Limits](https://apis.io/rate-limits/usewire-io/usewire-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://usewire.io/)
+- [Documentation](https://docs.usewire.io/)
+- [Getting started](https://usewire.io/how-to/)
+- [API reference](https://docs.usewire.io/mcp/rest-api/)
+- [Pricing](https://usewire.io/pricing/)
+- [Changelog](https://usewire.io/changelog/)
+- [Blog](https://usewire.io/blog/)
+- [Terms of service](https://usewire.io/terms/)
+- [Privacy policy](https://usewire.io/privacy/)
+- [GitHub](https://github.com/usewire)
+
+## API Evangelist rating
+
+**Kin Score 52.6** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 31.6 |
+
+**Agent readiness 43.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/usewire-io/](https://apis.io/providers/usewire-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for usewire-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/usewire-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
